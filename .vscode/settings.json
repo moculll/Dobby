@@ -1,7 +1,7 @@
 {
   "files.autoSave": "onFocusChange",
   "files.autoSaveDelay": 3000,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "cmake.environment": {
     "ANDROID_NDK": "/Users/jmpews/Library/Android/sdk/ndk-bundle"
   },

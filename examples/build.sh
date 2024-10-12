@@ -9,5 +9,5 @@ export CXX=$TOOLCHAIN/bin/$TARGET$API-clang++
 export AR=$TOOLCHAIN/bin/$TARGET-ar
 export LD=$TOOLCHAIN/bin/$TARGET-ld
 
-$CXX -fPIC -shared -static-libstdc++ -o test.so main.cc /home/mocul/c_test/android/Dobby/build/android/arm64-v8a/libdobby.a -llog -landroid
+$CXX -fPIC -shared -static-libstdc++ -o test.so main.cpp /home/mocul/c_test/android/Dobby/build/android/arm64-v8a/libdobby.a -llog -landroid -I../include -I./
 #$CXX -o test main.cc /home/mocul/c_test/android/Dobby/build/android/arm64-v8a/libdobby.a -llog -landroid
